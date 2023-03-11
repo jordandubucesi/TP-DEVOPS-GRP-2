@@ -1,0 +1,39 @@
+{
+    "name": "tp-cesi-infal198-devops",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "description": "Fibonaci expressjs api",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "format": "prettier --config .prettierrc . --write",
+        "lint": "eslint index.js",
+        "test-e2e": "mocha --recursive --reporter spec tests/e2e",
+        "test-unit": "mocha --recursive --reporter spec tests/unit",
+        "test": "mocha --recursive --reporter spec tests",
+        "dev-start": "nodemon --exec npm run start",
+        "dev-test": "nodemon --exec npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guivin/TP-CESI-INFAL198-DEVOPS.git"
+    },
+    "author": "Guillaume Vincent",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guivin/TP-CESI-INFAL198-DEVOPS/issues"
+    },
+    "homepage": "https://github.com/guivin/TP-CESI-INFAL198-DEVOPS#readme",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.35.0",
+        "mocha": "^10.2.0",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.8.4",
+        "supertest": "^6.3.3"
+    }
+}
