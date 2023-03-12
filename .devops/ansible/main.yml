@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    # Install Node.js
+    - name: Install Node.js
+      apt:
+        name: nodejs
+        state: present
