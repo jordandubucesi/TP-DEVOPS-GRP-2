@@ -1,5 +1,5 @@
 {
-    "name": "tp-cesi-infal198-devops",
+    "name": "tp-devops",
     "version": "1.0.0",
     "engines": {
         "node": ">=16.0.0"
@@ -18,14 +18,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/guivin/TP-CESI-INFAL198-DEVOPS.git"
+        "url": "git+https://github.com/guivin/TP-DEVOPS.git"
     },
     "author": "Guillaume Vincent",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/guivin/TP-CESI-INFAL198-DEVOPS/issues"
+        "url": "https://github.com/guivin/TP-DEVOPS/issues"
     },
-    "homepage": "https://github.com/guivin/TP-CESI-INFAL198-DEVOPS#readme",
+    "homepage": "https://github.com/guivin/TP-DEVOPS#readme",
     "dependencies": {
         "express": "^4.18.2"
     },
