@@ -1,4 +1,4 @@
-# TP-CESI-INFAL198-DEVOPS
+# TP-DEVOPS
 Un TP pour s'approprier les outils DevOps
 
 <p align="center">
@@ -29,7 +29,7 @@ Démarrage du serveur :
 ```
 $ npm start
 
-> tp-cesi-infal198-devops@1.0.0 start
+> tp-devops@1.0.0 start
 > node index.js
 
 Server 55795 running !
