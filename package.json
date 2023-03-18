@@ -9,7 +9,8 @@
     "scripts": {
         "start": "node index.js",
         "format": "prettier --config .prettierrc . --write",
-        "lint": "eslint index.js",
+        "lint:js": "eslint ./*.js",
+        "lint": "npm run lint:js",
         "test-e2e": "mocha --recursive --reporter spec tests/e2e",
         "test-unit": "mocha --recursive --reporter spec tests/unit",
         "test": "mocha --recursive --reporter spec tests",
